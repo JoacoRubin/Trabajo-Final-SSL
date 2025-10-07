@@ -1,0 +1,39 @@
+// Ejemplo sin cadenas literales - solo operaciones
+entero contador, limite, suma, resultado;
+real promedio, total;
+caracter letra, letra2;
+
+// Inicializacion
+contador := 1;
+limite := 10;
+suma := 0;
+letra := 'A';
+letra2 := 'Z';
+
+// Sentencia SI-SINO
+si (contador <= limite) {
+    resultado := contador + limite;
+} sino {
+    resultado := contador - limite;
+}
+
+// Bucle MIENTRAS
+mientras (contador <= 5) {
+    suma := suma + contador;
+    contador := contador + 1;
+}
+
+// Bucle REPETIR-HASTA
+contador := 10;
+repetir {
+    contador := contador - 1;
+    total := total + contador;
+} hasta (contador <= 0);
+
+// Operaciones con tipos
+promedio := suma / limite;
+resultado := letra + letra2;
+
+escribir(resultado);
+escribir(suma);
+escribir(promedio);

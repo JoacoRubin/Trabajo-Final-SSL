@@ -1,0 +1,31 @@
+// Ejemplo 1: Declaraciones y tipos de datos
+entero numero1, numero2, resultado;
+real precio, descuento, total;
+caracter letra, digito, simbolo;
+
+// Inicializacion con diferentes tipos
+numero1 := 10;
+numero2 := 25;
+precio := 99.99;
+descuento := 0.15;
+letra := 'A';
+digito := '5';
+simbolo := '@';
+
+// Operaciones aritmeticas con enteros
+resultado := numero1 + numero2;
+resultado := numero1 * numero2;
+resultado := numero2 / numero1;
+resultado := numero2 % numero1;
+
+// Operaciones aritmeticas con reales
+total := precio * (1.0 - descuento);
+total := precio - (precio * descuento);
+
+// Conversiones automaticas de tipos
+numero1 := digito;  // char a int (conversion automatica)
+precio := numero1;  // int a real (conversion automatica)
+
+escribir(resultado);
+escribir(total);
+escribir(letra);

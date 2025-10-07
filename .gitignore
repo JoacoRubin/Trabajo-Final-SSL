@@ -1,0 +1,35 @@
+# Archivos ejecutables
+*.exe
+*.out
+compilador
+
+# Archivos objeto
+*.o
+*.obj
+
+# Archivos de depuración
+*.pdb
+*.dSYM/
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de IDEs
+.vscode/
+.vs/
+*.swp
+*.swo
+*~
+
+# Archivos de logs
+*.log
+
+# Archivos de configuración local
+config.local
+
+# Carpetas de build (si las hubiera)
+build/
+dist/
+bin/
+obj/

@@ -1,0 +1,47 @@
+// Casos de prueba para errores comunes
+entero variable_no_inicializada, x, y;
+real numero_real;
+caracter c;
+
+// Error 1: Variable no declarada
+resultado := x + y;  // 'resultado' no está declarada
+
+// Error 2: Tipos incompatibles
+entero solo_entero;
+solo_entero := "cadena";  // No se puede asignar cadena a entero
+
+// Error 3: División por cero (advertencia)
+x := 10;
+y := 0;
+resultado := x / y;
+
+// Error 4: Variable no inicializada (advertencia)
+escribir(variable_no_inicializada);
+
+// Error 5: Sintaxis incorrecta en SI
+si x > 5 {  // Faltan paréntesis en la condición
+    escribir("Mayor que 5");
+}
+
+// Error 6: Sintaxis incorrecta en MIENTRAS
+mientras (x > 0  // Falta paréntesis de cierre
+    x := x - 1;
+}
+
+// Error 7: Sintaxis incorrecta en REPETIR-HASTA
+repetir {
+    x := x + 1;
+} hasta x = 10;  // Faltan paréntesis en la condición
+
+// Error 8: Carácter literal mal formado
+c := 'AB';  // Carácter literal con más de un carácter
+
+// Error 9: Operación no válida entre tipos
+caracter letra1, letra2;
+real resultado_operacion;
+letra1 := 'A';
+letra2 := 'B';
+resultado_operacion := letra1 * letra2;  // Multiplicación de caracteres a real
+
+// Error 10: Sentencia incompleta
+x := ;  // Expresión faltante en asignación
