@@ -30,8 +30,8 @@ typedef enum {
     TOKEN_SI,          // si
     TOKEN_SINO,        // sino
     TOKEN_MIENTRAS,    // mientras
-    TOKEN_REPETIR,     // repetir
-    TOKEN_HASTA,       // hasta
+    TOKEN_REPETIR,     // parte inicial de 'repetir hasta'
+    TOKEN_HASTA,       // parte final de 'repetir hasta'
     
     // Palabras reservadas - Entrada/Salida
     TOKEN_LEER,        // leer

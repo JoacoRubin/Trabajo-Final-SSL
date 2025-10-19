@@ -110,7 +110,7 @@ char* getExampleSourceCode() {
            "    escribir(contador);\n"
            "    suma := suma + contador;\n"
            "} sino {\n"
-           "    escribir(\"Contador excede el límite\");\n"
+           "    //escribir(\"Contador excede el límite\");\n"
            "}\n"
            "\n"
            "// Ejemplo de bucle MIENTRAS\n"

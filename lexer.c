@@ -34,8 +34,8 @@ int isKeyword(char* word) {
     if (strcmp(word, "si") == 0) return TOKEN_SI;
     if (strcmp(word, "sino") == 0) return TOKEN_SINO;
     if (strcmp(word, "mientras") == 0) return TOKEN_MIENTRAS;
-    if (strcmp(word, "repetir") == 0) return TOKEN_REPETIR;
-    if (strcmp(word, "hasta") == 0) return TOKEN_HASTA;
+    if (strcmp(word, "repetir") == 0) return TOKEN_REPETIR;    // parte inicial de 'repetir hasta'
+    if (strcmp(word, "hasta") == 0) return TOKEN_HASTA;        // parte final de 'repetir hasta'
     
     // Entrada/Salida
     if (strcmp(word, "leer") == 0) return TOKEN_LEER;
