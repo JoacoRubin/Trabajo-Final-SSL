@@ -2,11 +2,11 @@
 
 ## Estudiantes:
 
-Tomas Carnezis          222.193-7  K2101
-Joaquín Rubinstein      218.554-4  K2001
-Maia De Blasis          220.633-0  K2001
-Germán Darío Fernández  208.978-6  K2001
-Lautaro Benvenuto       213.507-3  K2001
+Tomas Carnezis          222.193-7  K2101 /
+Joaquín Rubinstein      218.554-4  K2001 /
+Maia De Blasis          220.633-0  K2001 /
+Germán Darío Fernández  208.978-6  K2001 /
+Lautaro Benvenuto       213.507-3  K2001 /
 
 ## Descripción
 
